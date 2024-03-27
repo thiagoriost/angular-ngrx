@@ -1,0 +1,9 @@
+<p>todo works!</p>
+
+@for (item of store.products(); track $index) {
+  <div style="display: flex;">
+    <p style="margin-right: 10px;">{{item.id}}</p>
+    <p>{{item.item}}</p>
+
+  </div>
+}
